@@ -1,0 +1,20 @@
+.login-custom {
+	background-color: #000;
+	background-image: url(../img/fundo.png);
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	font-family: 'Pacifico';
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+}
+h1 span {
+	font-family: 'Roboto';
+	font-size: 15px;
+	position: absolute;
+	margin-top: 55px;
+	margin-left: -30px;
+}

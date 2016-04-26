@@ -1,0 +1,81 @@
+* {
+	font-family: "Roboto" !important;
+}
+
+.bar-subheader {
+	height: 70px;
+	background-image:none;
+}
+.has-subheader {
+	top: 110px;
+}
+.bar.bar-calm {
+	border-color: #3ec3d6;
+    background-color: #3ec3d6;
+    background-image:none;
+}
+.item-search {
+	border-radius: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.icon-search {
+	margin-right: 10px;
+	font-size: 20px;
+}
+.list-custom .item {
+	border-width:0;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+.list-custom .item:first-child {
+	border-top-width: 0;	
+}
+.list-custom button {
+	margin-top: 8px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.list-custom button i{
+	margin-left: -2px;
+    margin-top: 4px;
+}
+.list-custom span {
+	font-size: 12px;
+}
+.button.button-stable,
+.button.button-stable:hover {
+	background-color: #d0d5d8;
+    color: #fff;
+}
+.button.button-stable.activated {
+	background-color: #c4c9cd;
+}
+.badge-custom {
+	background-color: #000;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 10px;
+}
+.badge-custom.amigo {
+	background-color: #7bcef3;
+}
+.badge-custom.familia {
+	background-color: #efbb68;
+}
+.badge-custom.faculdade {
+	background-color: #74cb92;
+}
+.list-custom h2 {
+	margin-left: 10px;
+}
+.list-custom .item-avatar img {
+	top: 6px;
+    left: 5px;
+    max-width: 60px;
+    max-height: 60px;
+}
