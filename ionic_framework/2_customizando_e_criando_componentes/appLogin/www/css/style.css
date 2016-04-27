@@ -13,8 +13,44 @@ h1 {
 }
 h1 span {
 	font-family: 'Roboto';
-	font-size: 15px;
+	font-size: 18px;
 	position: absolute;
 	margin-top: 55px;
-	margin-left: -30px;
+	margin-left: -35px;
+}
+.list {
+	width: 75%;
+	margin: auto;
+	margin-top: 60px;
+}
+.item {
+	background: none;
+	border:none;
+}
+.item-input {
+	border-bottom: 1px solid #fff;
+}
+.item-input i {
+	color: #fff;
+	font-size: 25px;
+}
+.item-input input {
+	font-size: 16px;
+	margin-left: 10px;
+	color: #fff;
+}
+.item-button {
+	padding: 0;
+}
+.button-first {
+	padding-top: 20px;
+}
+.button.button-positive {
+	background-color: #3B5998;
+}
+.button-clear.button-clear {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	text-decoration: underline;
 }
