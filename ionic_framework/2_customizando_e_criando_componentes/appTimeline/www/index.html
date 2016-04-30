@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <!-- GetFont -->
+    <link href="css/font.css" rel="stylesheet">
+    <!-- End GetFont -->
+    <link href="css/iconfont.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+        <button class="button button-clear">
+          <i class="material-icons">menu</i>
+        </button>
+        <h1 class="title"></h1>
+        <button class="button button-clear">
+          <i class="material-icons">chat_bubble_outline</i>
+        </button>
+      </ion-header-bar>
+      <ion-content>
+        <div id="profile">
+          <div class="photo">
+            <img src="img/user1.jpg" >
+          </div>
+          <h2>Linus Torvalds</h2>
+          <h3>Criador do Linux</h3>
+          <div class="row">
+            <div class="col">1056 <span>Posts</span></div> 
+            <div class="col">12k <span>Seguidores</span></div> 
+            <div class="col">4533 <span>Seguindo</span></div> 
+          </div>
+        </div>
+
+        <div class="timeline">
+          
+          <div class="event">
+            <i class="material-icons mark">location_on</i>
+            <div class="card padding">
+              <p>Esteve No <b>Brasil</b> no evento <b>LinuxCon 2011</b>.</p>
+              <div class="info">
+                <i class="material-icons">access_time</i>
+                12:00am
+              </div>
+              <div class="info">
+                <i class="material-icons">date_range</i>
+                18/11/2011 
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <i class="material-icons mark">call</i>
+            <div class="card padding">
+              <p>Ligou para <b>Bill Gates</b> falando sobre idéias para 2016.</p>
+              <div class="info">
+                <i class="material-icons">access_time</i>
+                8:30am
+              </div>
+              <div class="info">
+                <i class="material-icons">date_range</i>
+                22/11/2011 
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <i class="material-icons mark">bookmark</i>
+            <div class="card padding">
+              <p>Foi marcado na foto de <b>Mike Flor</b>.</p>
+              <p class="item-image">
+                <img src="img/event1.jpg">
+              </p>
+              <div class="info">
+                <i class="material-icons">access_time</i>
+                22:11pm
+              </div>
+              <div class="info">
+                <i class="material-icons">date_range</i>
+                12/12/2011
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <img class="mark-profile" src="img/fabio.jpg">
+            <div class="card padding">
+              <p>Aceitou novo seguidor <b>Fábio Rogério SJ</b>.</p>
+              <div class="info">
+                <i class="material-icons">access_time</i>
+                14:22pm
+              </div>
+              <div class="info">
+                <i class="material-icons">date_range</i>
+                15/12/2011 
+              </div>
+            </div>
+          </div>
+
+          
+
+
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
