@@ -1,0 +1,69 @@
+.pane {
+	background-color: #3B3C3E;
+}
+ion-content h1{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+}
+.title-custom {
+	color: #8C9093;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.row {
+	padding: 0;
+}
+.col {
+	margin: 1px;
+	margin-bottom: 6px;
+	background-color: #525659;
+	padding: 10px;
+}
+.row label{
+	color: #9CA0A3;
+	font-size: 12px;
+}
+.row label span {
+	float: right;
+	color: #fff;
+	padding-top: 4px;
+}
+.row h2 {
+	margin: 0;
+	font-size: 25px;
+}
+.row h2 span {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+}
+.row.valores h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.item {
+	background:none;
+	border-color: #474747;
+}
+.item h2 {
+	color: #8C9093;
+}
+.item p {
+	color: #8C9093;
+}
+.right {
+	float: right;
+	color: #8C9093;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.right .valor {
+	float: left;
+	margin-right: 10px;
+}
+.right i {
+	font-size: 40px;
+	float: left;margin-top: -10px;
+}

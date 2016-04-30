@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <!-- GetFont -->
+    <link href="css/font.css" rel="stylesheet">
+    <!-- End GetFont -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-positive bar-top" align-title="center">
+        <button class="button button-icon icon ion-navicon"></button>
+        <h1 class="title">PassagemApp</h1>
+        <button class="button button-clear">Próximo</button>
+      </ion-header-bar>
+      <ion-content>
+      <h1>PASSO 1/3</h1>
+
+      <div class="forms">
+        <h3>Tipo da viagem?</h3>
+        <div class="row radio-custom">
+          <div class="col select">Ida e volta</div>
+          <div class="col">Somente ida</div>
+          <div class="col">Somente volta</div>
+        </div>
+
+        <h3>Vai com quem?</h3>
+        <div class="row radio-custom">
+          <div class="col select">Sozinho</div>
+          <div class="col">Acompanhado</div>
+        </div>
+
+        <h3>Qual sua rota?</h3>
+        <div class="item item-input">
+          <input type="text" placeholder="Informe o local de partida" value="Maringá-PR">
+          <i class="icon ion-ios-location-outline"></i>
+        </div>
+        <div class="item item-input">
+          <input type="text" placeholder="Informe o local de destino">
+          <i class="icon ion-ios-location-outline"></i>
+        </div>
+
+        <h3>Quando vai ser?</h3>
+        <h4>Data ida</h4>
+        <div class="row row-input">
+          <div class="col">
+            <div class="item item-input">
+              <input type="date">
+              <i class="icon ion-ios-calendar-outline"></i>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item item-input">
+              <input type="time">
+              <i class="icon ion-ios-clock-outline"></i>
+            </div>
+          </div>
+        </div>
+        <h4>Data volta</h4>
+        <div class="row row-input">
+          <div class="col">
+            <div class="item item-input">
+              <input type="date">
+              <i class="icon ion-ios-calendar-outline"></i>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item item-input">
+              <input type="time">
+              <i class="icon ion-ios-clock-outline"></i>
+            </div>
+          </div>
+        </div>
+
+        <h3>Passeios adicionais</h3>
+        <ion-list class="list-custom">
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Visita ao Corcovado
+          </ion-item>
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Castelo da Sapolientra
+          </ion-item>
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Lago Santo River Side
+          </ion-item>
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Visita ao Corcovado
+          </ion-item>
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Castelo da Sapolientra
+          </ion-item>
+          <ion-item class="item-checkbox item-checkbox-right">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Lago Santo River Side
+          </ion-item>
+        </ion-list>
+
+      </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

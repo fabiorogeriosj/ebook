@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <!-- GetFont -->
+    <link href="css/font.css" rel="stylesheet">
+    <!-- End GetFont -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-transparent">
+        <button class="button button-icon ion-ios-arrow-left"></button>
+        <h1 class="title"></h1>
+        <button class="button button-icon ion-ios-heart-outline"></button>
+      </ion-header-bar>
+      <ion-content class="no-header">
+        <div id="preview" style="background-image: url(img/angelina_jolie3.jpg)">
+          <div class="info-preview">
+            <h2>Angelina Jolie, 40</h2>
+            <h3 class="right">
+              <i class="icon ion-image"></i>
+              3/8
+            </h3>
+            <h3>
+              <i class="icon ion-ios-location-outline"></i>
+              Los Angeles, Califórnia, EUA
+            </h3>
+            <ion-scroll direction="x" class="wide-as-needed">
+              <div class="photo" style="background-image: url(img/angelina_jolie1.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie2.jpg);"></div>
+              <div class="photo selected" style="background-image: url(img/angelina_jolie3.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie4.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie5.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie6.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie7.jpg);"></div>
+              <div class="photo" style="background-image: url(img/angelina_jolie8.jpg);"></div>
+            </ion-scroll>
+          </div>
+        </div>
+        <h4>Sobre Angelina Jolie</h4>
+        <p>Angelina Jolie Pitt é uma atriz, dubladora, diretora, produtora, roteirista e ativista humanitária americana. Ela já foi premiada com um Óscar, dois Prémios Screen Actors Guild, e três Prêmios Globo de Ouro.</p>
+        <h4>Filmes</h4>
+        <img class="filme" src="img/filme1.jpg" height="80px">
+        <img class="filme" src="img/filme2.jpg" height="80px">
+        <img class="filme" src="img/filme3.jpg" height="80px">
+        <img class="filme" src="img/filme4.jpg" height="80px">
+        <img class="filme" src="img/filme5.jpg" height="80px">
+        <img class="filme" src="img/filme6.jpg" height="80px">
+        <img class="filme" src="img/filme7.jpg" height="80px">
+        <img class="filme" src="img/filme8.jpg" height="80px">
+        <img class="filme" src="img/filme9.jpg" height="80px">
+        <img class="filme" src="img/filme10.jpg" height="80px">
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
