@@ -6,6 +6,7 @@
 .bar-top .title {
 	font-family: 'Pacifico', cursive;
 }
+
 ion-content {
 	font-family: 'Lato', sans-serif;
 }
@@ -37,17 +38,12 @@ h4 {
 	font-family: 'Lato', sans-serif;
 	margin:0;
 }
+
 .forms {
 	padding: 20px;
 }
 .row {
 	padding: 2px;
-}
-.radio-custom .col {
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'Lato', sans-serif;
 }
 .col.select {
 	background-color: #00A5FF;
@@ -59,6 +55,15 @@ h4 {
 	border-radius: 15px;
 	color: #999999;
 }
+.radio-custom .col {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
 .item {
 	border-radius: 15px;
 	border-color: #BEBEBE;
@@ -83,6 +88,8 @@ h4 {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+
+
 .list-custom .item {
 	border-radius: 0;
 	border-left-width: 0;

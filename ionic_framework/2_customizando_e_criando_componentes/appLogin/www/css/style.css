@@ -4,20 +4,6 @@
 	background-size: cover;
 	background-position: center;
 }
-h1 {
-	font-family: 'Pacifico';
-	color: #fff;
-	text-align: center;
-	font-size: 50px;
-	padding-top: 50px;
-}
-h1 span {
-	font-family: 'Roboto';
-	font-size: 18px;
-	position: absolute;
-	margin-top: 55px;
-	margin-left: -35px;
-}
 .list {
 	width: 75%;
 	margin: auto;
@@ -42,6 +28,22 @@ h1 span {
 .item-button {
 	padding: 0;
 }
+
+h1 {
+	font-family: 'Pacifico';
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+}
+h1 span {
+	font-family: 'Roboto';
+	font-size: 18px;
+	position: absolute;
+	margin-top: 55px;
+	margin-left: -35px;
+}
+
 .button-first {
 	padding-top: 20px;
 }

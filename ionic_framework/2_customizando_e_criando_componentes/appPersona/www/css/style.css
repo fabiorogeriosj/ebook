@@ -1,9 +1,11 @@
+
 .bar-transparent {
 	background: none;
 }
 .bar-transparent button {
 	color: #fff;
 }
+
 #preview {
 	background-size: cover;
 	height: 60%;
@@ -34,6 +36,7 @@
 .photo:last-child {
 	margin-right: 6px;
 }
+
 .wide-as-needed {
   overflow: scroll;
   white-space: nowrap;
@@ -44,6 +47,7 @@
 .scroll { 
   min-width: 100%;
 }
+
 ion-content {
 	background-color:#F0F2F5; 
 }
